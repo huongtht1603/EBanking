@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="113.463" tests="7" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:/Drivers/chromedriver_win32/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\huong.tran\eclipse-workspace\EBanking\target\test-classes;C:\Users\huong.tran\eclipse-workspace\EBanking\target\classes;C:\Users\huong.tran\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\huong.tran\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\huong.tran\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\huong.tran\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\cucumber-testng\1.2.6\cucumber-testng-1.2.6.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-java\4.2.1\selenium-java-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-api\4.2.1\selenium-api-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.2.1\selenium-chrome-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\huong.tran\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\huong.tran\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\huong.tran\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\huong.tran\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\huong.tran\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\huong.tran\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\huong.tran\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\huong.tran\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.2.1\selenium-chromium-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-json\4.2.1\selenium-json-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.2.1\selenium-devtools-v100-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.2.1\selenium-devtools-v101-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.2.1\selenium-devtools-v102-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.2.1\selenium-devtools-v85-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.2.1\selenium-edge-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.2.1\selenium-firefox-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.2.1\selenium-ie-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.2.1\selenium-opera-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.2.1\selenium-remote-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-buffer\4.1.77.Final\netty-buffer-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-codec-http\4.1.77.Final\netty-codec-http-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-codec\4.1.77.Final\netty-codec-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-handler\4.1.77.Final\netty-handler-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-common\4.1.77.Final\netty-common-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.77.Final\netty-transport-classes-epoll-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.77.Final\netty-transport-classes-kqueue-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-epoll\4.1.77.Final\netty-transport-native-epoll-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.77.Final\netty-transport-native-kqueue-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.77.Final\netty-transport-native-unix-common-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport\4.1.77.Final\netty-transport-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-resolver\4.1.77.Final\netty-resolver-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-api\1.14.0\opentelemetry-api-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-context\1.14.0\opentelemetry-context-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.14.0\opentelemetry-exporter-logging-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.14.0\opentelemetry-sdk-metrics-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.14.0-alpha\opentelemetry-sdk-logs-1.14.0-alpha.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.14.0\opentelemetry-sdk-common-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.14.0\opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.14.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.14.0\opentelemetry-sdk-trace-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.14.0\opentelemetry-sdk-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.14.0-alpha\opentelemetry-semconv-1.14.0-alpha.jar;C:\Users\huong.tran\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\huong.tran\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\huong.tran\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\huong.tran\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\huong.tran\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\huong.tran\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\huong.tran\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\huong.tran\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-http\4.2.1\selenium-http-4.2.1.jar;C:\Users\huong.tran\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.2.1\selenium-safari-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-support\4.2.1\selenium-support-4.2.1.jar;C:\Users\huong.tran\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\huong.tran\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\huong.tran\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\huong.tran\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\huong.tran\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\huong.tran\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_331\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\huong.tran\AppData\Local\Temp\surefire6396984686882885114\surefirebooter2432227983297973306.jar C:\Users\huong.tran\AppData\Local\Temp\surefire6396984686882885114 2022-07-06T08-30-29_150-jvmRun1 surefire3770827730374455344tmp surefire_0550417525466390142tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\huong.tran\eclipse-workspace\EBanking\target\test-classes;C:\Users\huong.tran\eclipse-workspace\EBanking\target\classes;C:\Users\huong.tran\.m2\repository\io\cucumber\cucumber-java\1.2.6\cucumber-java-1.2.6.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\cucumber-core\1.2.6\cucumber-core-1.2.6.jar;C:\Users\huong.tran\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\huong.tran\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\huong.tran\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\cucumber-testng\1.2.6\cucumber-testng-1.2.6.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;C:\Users\huong.tran\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-java\4.2.1\selenium-java-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-api\4.2.1\selenium-api-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.2.1\selenium-chrome-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\huong.tran\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\huong.tran\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\huong.tran\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\huong.tran\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\huong.tran\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\huong.tran\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\huong.tran\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\huong.tran\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.2.1\selenium-chromium-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-json\4.2.1\selenium-json-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.2.1\selenium-devtools-v100-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.2.1\selenium-devtools-v101-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.2.1\selenium-devtools-v102-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.2.1\selenium-devtools-v85-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.2.1\selenium-edge-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.2.1\selenium-firefox-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.2.1\selenium-ie-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.2.1\selenium-opera-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.2.1\selenium-remote-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-buffer\4.1.77.Final\netty-buffer-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-codec-http\4.1.77.Final\netty-codec-http-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-codec\4.1.77.Final\netty-codec-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-handler\4.1.77.Final\netty-handler-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-common\4.1.77.Final\netty-common-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.77.Final\netty-transport-classes-epoll-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.77.Final\netty-transport-classes-kqueue-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-epoll\4.1.77.Final\netty-transport-native-epoll-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.77.Final\netty-transport-native-kqueue-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.77.Final\netty-transport-native-unix-common-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport\4.1.77.Final\netty-transport-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-resolver\4.1.77.Final\netty-resolver-4.1.77.Final.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-api\1.14.0\opentelemetry-api-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-context\1.14.0\opentelemetry-context-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.14.0\opentelemetry-exporter-logging-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.14.0\opentelemetry-sdk-metrics-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.14.0-alpha\opentelemetry-sdk-logs-1.14.0-alpha.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.14.0\opentelemetry-sdk-common-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.14.0\opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.14.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.14.0\opentelemetry-sdk-trace-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.14.0\opentelemetry-sdk-1.14.0.jar;C:\Users\huong.tran\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.14.0-alpha\opentelemetry-semconv-1.14.0-alpha.jar;C:\Users\huong.tran\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\huong.tran\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\huong.tran\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\huong.tran\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\huong.tran\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\huong.tran\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\huong.tran\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\huong.tran\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\huong.tran\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-http\4.2.1\selenium-http-4.2.1.jar;C:\Users\huong.tran\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.2.1\selenium-safari-driver-4.2.1.jar;C:\Users\huong.tran\.m2\repository\org\seleniumhq\selenium\selenium-support\4.2.1\selenium-support-4.2.1.jar;C:\Users\huong.tran\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\huong.tran\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\huong.tran\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\huong.tran\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\huong.tran\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\huong.tran\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\huong.tran"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_331\jre"/>
+    <property name="basedir" value="C:\Users\huong.tran\eclipse-workspace\EBanking"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\huong.tran\AppData\Local\Temp\surefire6396984686882885114\surefirebooter2432227983297973306.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_331\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_331\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_331-b09"/>
+    <property name="user.name" value="huong.tran"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_331\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\huong.tran\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HUONG~1.TRA\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_331"/>
+    <property name="user.dir" value="C:\Users\huong.tran\eclipse-workspace\EBanking"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_331\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/huong.tran/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin/server;C:/Users/huong.tran/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_331\bin;C:\Tools\apache-maven-3.8.5\bin;C:\Users\huong.tran\AppData\Local\Microsoft\WindowsApps;;C:\Users\huong.tran\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.331-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_331\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature[Account information module](1)" classname="com.cucumberFramework.testRunner.TestRunner" time="7.784">
+    <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:40)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[2022-07-06 08:07:149 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:220 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:508 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:572 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:52 INFO  ServiceHooks :34 - VA_01 Verify account profile information in account profile page is the same to registration information is Failed
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54204
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:30:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:30:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:30:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Change password page](2)" classname="com.cucumberFramework.testRunner.TestRunner" time="19.814">
+    <system-out><![CDATA[2022-07-06 08:07:416 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:448 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:718 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:777 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:408 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:438 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:704 INFO  ServiceHooks :43 - CP_02 Verify change password function when providing valid data is pass
+2022-07-06 08:07:997 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:26 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:289 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:346 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:963 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:994 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:236 INFO  ServiceHooks :43 - CP_02 Verify change password function when providing valid data is pass
+2022-07-06 08:07:621 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:651 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:922 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:00 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:628 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:656 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:872 INFO  ServiceHooks :43 - CP_04 Verify change password function when providing incorect current password is pass
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60824
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:30:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:30:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:30:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64507
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:30:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:30:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:30:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61188
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:30:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:30:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:30:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Create account](3)" classname="com.cucumberFramework.testRunner.TestRunner" time="12.662">
+    <system-out><![CDATA[2022-07-06 08:07:126 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:159 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:444 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:505 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:823 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:856 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:924 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:957 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:14 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:42 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:356 INFO  ServiceHooks :43 - OA_02 Verify create account function by selecting kind of account in dropdown is pass
+2022-07-06 08:07:626 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:655 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:924 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:969 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:214 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:265 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:511 INFO  ServiceHooks :43 - OA_03 Verify Create account function without selecting any kind of acount in dropdown is pass
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64290
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55013
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="feature[External transfer](4)" classname="com.cucumberFramework.testRunner.TestRunner" time="17.427">
+    <system-out><![CDATA[2022-07-06 08:07:955 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:983 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:259 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:312 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:613 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:650 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:725 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:759 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:127 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:153 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:219 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:250 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:337 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:365 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:414 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:448 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:503 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:528 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:13 INFO  ServiceHooks :43 - ETM_11 Verify error message if transfering value of transfer money is greater than balance is pass
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64143
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Internal transfer](5)" classname="com.cucumberFramework.testRunner.TestRunner" time="20.699">
+    <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:40)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[2022-07-06 08:07:339 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:379 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:654 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:723 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:21 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:55 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:128 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:157 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:527 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:551 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:635 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:663 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:888 INFO  ServiceHooks :34 - ITM_07 Verify error mesage when providing invalid account of beneficiary is Failed
+2022-07-06 08:07:192 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:219 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:523 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:575 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:842 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:884 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:957 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:982 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:380 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:414 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:530 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:565 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:885 INFO  ServiceHooks :43 - ITM_09 Verify error mesage when providing the same account of sender and beneficiary is pass
+2022-07-06 08:07:222 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:257 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:518 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:579 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:843 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:881 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:958 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:986 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:339 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:364 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:444 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:468 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:702 INFO  ServiceHooks :34 - ITM_11 Verify error message if entering invalid data to "S? ti?n" field is Failed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54602
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55084
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58917
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Login page](6)" classname="com.cucumberFramework.testRunner.TestRunner" time="23.509">
+    <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:40)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+]]></failure>
+    <system-out><![CDATA[2022-07-06 08:07:28 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:55 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:446 INFO  ServiceHooks :43 - LI_03 Verify login function with valid data is pass
+2022-07-06 08:07:665 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:692 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:994 INFO  ServiceHooks :34 - LI_04 Verify error message if providing unregistered/incorrect username is Failed
+2022-07-06 08:07:242 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:271 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:574 INFO  ServiceHooks :43 - LI_04 Verify error message if providing unregistered/incorrect username is pass
+2022-07-06 08:07:991 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:19 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:347 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:413 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:493 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:246 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:268 INFO  ServiceHooks :43 - LO_01 Verify user is able to log out when clicking on "??ng xu?t" button is pass
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54350
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52146
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:31:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:31:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:31:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60746
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:32:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:32:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:32:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62667
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:32:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:32:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:32:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="feature[Registration](7)" classname="com.cucumberFramework.testRunner.TestRunner" time="10.358">
+    <system-out><![CDATA[2022-07-06 08:07:329 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:377 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:705 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:744 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:846 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:875 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:07 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:44 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:169 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:199 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:301 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:332 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:419 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:446 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:518 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:549 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:603 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:637 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:960 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:05 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:61 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:97 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:160 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:185 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:261 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:284 INFO  WaitHelper :26 - element is visible..
+testUser1796@gmail.com
+2022-07-06 08:07:387 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:413 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:463 INFO  WaitHelper :23 - waiting for element visibilityOf..
+2022-07-06 08:07:27 INFO  WaitHelper :26 - element is visible..
+2022-07-06 08:07:631 INFO  ServiceHooks :43 - RE_04 Verify registration function with valid data to all fields is pass
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54361
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 06, 2022 8:32:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 06, 2022 8:32:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 06, 2022 8:32:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,149 @@
+2022-07-06 08:07:149 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:220 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:508 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:572 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:52 INFO  ServiceHooks:34 - VA_01 Verify account profile information in account profile page is the same to registration information is Failed
+2022-07-06 08:07:416 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:448 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:718 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:777 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:408 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:438 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:704 INFO  ServiceHooks:43 - CP_02 Verify change password function when providing valid data is pass
+2022-07-06 08:07:997 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:26 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:289 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:346 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:963 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:994 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:236 INFO  ServiceHooks:43 - CP_02 Verify change password function when providing valid data is pass
+2022-07-06 08:07:621 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:651 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:922 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:00 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:628 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:656 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:872 INFO  ServiceHooks:43 - CP_04 Verify change password function when providing incorect current password is pass
+2022-07-06 08:07:126 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:159 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:444 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:505 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:823 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:856 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:924 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:957 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:14 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:42 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:356 INFO  ServiceHooks:43 - OA_02 Verify create account function by selecting kind of account in dropdown is pass
+2022-07-06 08:07:626 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:655 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:924 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:969 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:214 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:265 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:511 INFO  ServiceHooks:43 - OA_03 Verify Create account function without selecting any kind of acount in dropdown is pass
+2022-07-06 08:07:955 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:983 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:259 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:312 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:613 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:650 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:725 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:759 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:127 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:153 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:219 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:250 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:337 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:365 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:414 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:448 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:503 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:528 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:13 INFO  ServiceHooks:43 - ETM_11 Verify error message if transfering value of transfer money is greater than balance is pass
+2022-07-06 08:07:339 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:379 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:654 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:723 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:21 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:55 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:128 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:157 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:527 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:551 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:635 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:663 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:888 INFO  ServiceHooks:34 - ITM_07 Verify error mesage when providing invalid account of beneficiary is Failed
+2022-07-06 08:07:192 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:219 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:523 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:575 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:842 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:884 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:957 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:982 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:380 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:414 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:530 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:565 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:885 INFO  ServiceHooks:43 - ITM_09 Verify error mesage when providing the same account of sender and beneficiary is pass
+2022-07-06 08:07:222 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:257 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:518 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:579 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:843 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:881 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:958 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:986 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:339 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:364 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:444 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:468 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:702 INFO  ServiceHooks:34 - ITM_11 Verify error message if entering invalid data to "S? ti?n" field is Failed
+2022-07-06 08:07:28 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:55 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:446 INFO  ServiceHooks:43 - LI_03 Verify login function with valid data is pass
+2022-07-06 08:07:665 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:692 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:994 INFO  ServiceHooks:34 - LI_04 Verify error message if providing unregistered/incorrect username is Failed
+2022-07-06 08:07:242 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:271 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:574 INFO  ServiceHooks:43 - LI_04 Verify error message if providing unregistered/incorrect username is pass
+2022-07-06 08:07:991 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:19 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:347 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:413 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:493 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:246 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:268 INFO  ServiceHooks:43 - LO_01 Verify user is able to log out when clicking on "??ng xu?t" button is pass
+2022-07-06 08:07:329 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:377 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:705 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:744 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:846 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:875 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:07 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:44 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:169 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:199 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:301 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:332 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:419 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:446 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:518 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:549 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:603 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:637 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:960 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:05 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:61 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:97 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:160 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:185 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:261 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:284 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:387 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:413 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:463 INFO  WaitHelper:23 - waiting for element visibilityOf..
+2022-07-06 08:07:27 INFO  WaitHelper:26 - element is visible..
+2022-07-06 08:07:631 INFO  ServiceHooks:43 - RE_04 Verify registration function with valid data to all fields is pass

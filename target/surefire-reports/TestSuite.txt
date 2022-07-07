@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 113.463 s <<< FAILURE! - in TestSuite
+com.cucumberFramework.testRunner.TestRunner.feature[Account information module](1)  Time elapsed: 7.784 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:40)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+
+com.cucumberFramework.testRunner.TestRunner.feature[Internal transfer](5)  Time elapsed: 20.699 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:40)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+
+com.cucumberFramework.testRunner.TestRunner.feature[Login page](6)  Time elapsed: 23.509 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.cucumberFramework.testRunner.TestRunner.feature(TestRunner.java:40)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+

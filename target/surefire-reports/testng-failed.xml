@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BDD Test Suite]">
+  <test thread-count="5" verbose="0" name="BVT Test(failed)">
+    <classes>
+      <class name="com.cucumberFramework.testRunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="feature" invocation-numbers="0 4 5"/>
+        </methods>
+      </class> <!-- com.cucumberFramework.testRunner.TestRunner -->
+    </classes>
+  </test> <!-- BVT Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
